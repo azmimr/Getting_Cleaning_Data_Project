@@ -21,8 +21,11 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Description of scripts
+
 Only one R script is in this project **run_Analysis.R**
+
 **Library required**: plyr
+
 **Output**: 2 csv files saved in the 'Output' subfolder
   - std_mean_data.csv: Combined test and training datasets with mean and 
     std dev measurements
