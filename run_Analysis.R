@@ -105,6 +105,7 @@ data.average <- ddply(data.stats, .(id, activity), .fun=function(x){ colMeans(x[
 colnames(data.average)[-c(1:2)] <- paste("mean_", colnames(data.average)[-c(1:2)], sep="")
 
 saveFile(data.average, "ave_byactivity_bysubject")
+write.table(data.average, file="Output/final_tidydata.txt", row.names = FALSE)
 
 # Save column names as a text file to help build the code book
 # For mean and std table
